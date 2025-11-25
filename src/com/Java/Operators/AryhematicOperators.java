@@ -36,8 +36,7 @@ public class AryhematicOperators {
 		System.out.println(a/b); //2
 		System.out.println(a%b); //0
 		*/
-		
-		
+				
 		/*
 		System.out.println(5/2); //2
 		System.out.println(5%2); //1
