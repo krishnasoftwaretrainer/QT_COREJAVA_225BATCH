@@ -641,3 +641,119 @@ Low:+ -
 ---------------------
 
 https://github.com/krishnasoftwaretrainer/QT_COREJAVA_225BATCH.git
+
+2.Relational Operators:
+---------------------
+	6	 8
+<	<=	>	>=	==	!= 
+
+Input:Integer or Point Values 
+OutPut:Boolean Values: true/false 
+
+marks>=35:35 25 marks>=35:35
+25>=35 
+
+< or = 25>=35:false 
+25 > 35 or 25 == 35 
+false or false : false 
+
+25>=25
+25 > 25 or 25 = 25 
+false or true = true 
+
+25>25
+
+
+3.Logical Operators:
+-------------------
+AND OR NOT
+
+Truth Table:
+----------
+Input1	Input2 	AND		OR 		NOT 
+------	-----	---		--		---
+TRUE	TRUE 	TRUE	TRUE	FALSE
+
+TRUE	FALSE	FALSE	TRUE
+
+FALSE	TRUE	FALSE	TRUE	TRUE
+
+FALSE	FALSE	FALSE	FALSE
+ 
+4.Assignment Operators:
+----------------------
+=
+a=10; LHS=RHS 
+
++=	-=	*=	/=	%=	
+int a=5;  //5
+a+=10;
+a=a+10;
+a=5+10;
+a=15; //15 
+
+int a=5;
+b=a+10;
+b=5+10;
+b=15;
+
+5.Unary Operators:
+-----------------
++ - 
+a=-10;
+b=+20;
+
+1.Increment Operators: ++  4 -- 5 ++ 6
+A.Pre-Increment: ++a a=10 +1 a=11 Print:11
+B.Post-Increment: b++:b=10;Print:10 +1 b=11;
+
+2.Decrement Operators: --
+C.Pre-Decrement: --c:c=10; c=9 Print:9
+D.Post-Decrement: d--:d=10 Print:10 -1 d=9
+
+6.Ternary Operators:
+-------------------
+? :
+
+marks>=35?true:false;
+
+Difference: = == .equalsTo()
+
+Variable:Values 
+Object:Reference 
+
+7.Bitwise Operators:
+-----------------
+0:False 1:True 
+
+Input1	Input2	&	|	^
+--------------------------
+1		1		1	1	0
+	
+1		0		0	1	1
+					
+0		1		0	1	1	
+	
+0		0		0 	0	0
+
+Input:Integer:Binary:& | ^ 
+
+Logical:AND(&&) OR(||) 
+
+Bitwise:AND(&) OR(|) 
+
+a=12,b=10;
+
+8.Shift Operators:
+----------------
+1.Left Shift(<<):
+2.Right Shift(>>)
+
+int a=5; a<<4: 101
+
+Control Flow Statements in Java:
+-----------------------------
+1.Which:Conditional  
+2.How:Loop
+3.Stop:Jumping
+
