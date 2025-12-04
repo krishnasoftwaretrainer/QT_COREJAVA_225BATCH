@@ -1011,3 +1011,156 @@ deafult
 {
 Body; FBS;
 }
+
+03-12-2025
+---------
+Looping Statements:
+-----------------
+Iterative Statements:
+Block of Code or Body of the program:
+Counted Loops:10:Fixed
+for():
+Print  1 to 10 Numbers 
+Syntax:
+-----
+for(InitialValue;Condition;Increment/Decrement)
+{
+Body;
+}
+
+for(int i=1;i<=10;i++)
+{
+Syso(i);
+}
+
+Un-Counted/Infinet/Conditional:
+while():
+Syntax:
+------
+InitialValue;
+while(Condition)
+{
+  //1 2
+Body;
+Increment/Decrement;
+}
+
+
+System.out.print((char)(64+j)+" ");
+int num=1;
+ System.out.print(num++ + " ");
+i=2;
+i+=2;
+i=i+2;
+i=2+2;
+i=4;
+
+i=4+2;
+i=6;
+
+1 * 2= 2
+2 * 2= 4
+
+
+Entry Control Loops:
+
+do-while():
+-------
+Exit-Control Loops:
+First:False 
+
+int i=6; 1<=5 
+(i>5) 5>5
+
+Syntax:
+-----
+InitialValue;
+do 
+{
+Body;
+}while(Condition);
+Exit 
+
+4.Nested-for():
+-------------
+Syntax: SR MC or MR SC ; MR MC 
+-------
+for(InitialValue;Condition;Increment/Decrement)
+{//Outer T T T F Rows 
+for(InitialValue;Condition;Increment/Decrement)
+{ //Inner T F Columns 
+Body;  E 
+}
+}
+Pattern Programs:
+---------
+1  2  3  4  5
+1  2  3  4  5
+1  2  3  4  5
+1  2  3  4  5
+1  2  3  4  5 
+
+
+3.Jumping Statements:
+---------------
+break;
+continue;
+return;
+
+Arrays in Java:
+---------------
+Arrays in Java:
+-------------
+Normal Variable:
+int htno1=101; //101 
+int htno2=102; //102 
+int htno3=103; //103 
+int htno4=104; //104 
+int htno5=105; //105 
+int htno6=106; //106 
+
+Array:
+float 99
+int 99.99
+
+Syntax:
+-------
+datatype VariableName=Value;
+int htno=101;
+
+datatype ArryVariableName[]={Value1,Value2,....};
+int htno[]={101,102,103,104}; Static Array
+Memory Allocation for Dynamic Array:
+---------
+datatype ArryVariableName[]=new datatype[Size];
+int htno[]=new int[5]; 6
+Scanner scan=new Scanner();
+
+Types of Arrays:
+---------------
+1.Single Dimension Array: 
+SR MC or MR SC 
+
+101	102	103	104: SR MC 
+101 htno[0]=101
+102 htno[1]=102
+103 htno[2]=103
+104	MR SC 
+
+print 5 to 10  
+
+for each loop:
+------------
+Syntax:
+
+for(datatype NewVar:ArrayVariable)
+
+2.Double or Two Dimension or Multi Dimension Array:
+--------------------------
+					   C0		C1	C2 
+1	2	00	01		R0 1[00]	2[01]	3
+
+3	4 	10	11		R1 4[10]	5[11]	6 2*3=6
+Size:RSize*CSize=No of Elements 
+		2	*	2	=	4
+Elements:
