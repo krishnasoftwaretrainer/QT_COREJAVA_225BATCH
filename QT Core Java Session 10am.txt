@@ -1164,3 +1164,65 @@ for(datatype NewVar:ArrayVariable)
 Size:RSize*CSize=No of Elements 
 		2	*	2	=	4
 Elements:
+
+Dynamic Array Input:
+-------------------
+Single or One Dimension Array:
+------------------------
+1:1 v 
+2:2 v 
+3:4 v 
+
+c=a+b; - * / %
+c[][]=a[][]+b[][]; - * / %
++ - / %
+
+c[i][j]=a[i][j]+b[i][j];
+Muliplication:
+------------
+a[i][0]*b[0][j] + a[i][1]*b[1][j]
+a[i][k]*b[k][j] + a[i][k]*b[k][j]
+
+String in Java:
+--------------
+"Collection of Characters"
+A to Z a t z 0 to 9 SS[#@%#$^&$%]
+"Kr9shna"
+'d'
+
+Syntax:
+-------
+1.String Literal:
+---------------
+datatype StringVariableName="Value";
+String Course1="Java"; //8bytes
+String Course2="Java is"; //8bytes
+String Course3="Java is"; //No 
+
+datatype StringVariableName=scan.next();
+datatype StringVariableName=scan.nextLine();
+
+2.String new Keyword:
+--------------------
+datatype StringVariableName=new String("Value");
+String java1=new String("Java");//8bytes
+String java2=new String("Java");//8bytes
+
+== and equals
+
+Basic Concepts:
+
+OOPS Concepts:
+--------------
+Re-Usebulity:I 
+Readabulity:{len} {upper} {lower} {empty}
+Inside Class and OutSide MainMethod
+ Method1()
+ {
+ }
+ Inside Class and Inside MainMethod
+ 1.Static:classname.Method();
+ 2.Non-Static:Object.Method();
+ 
+Methods in Java:
+---------------
