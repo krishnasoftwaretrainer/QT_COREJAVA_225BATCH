@@ -1211,18 +1211,67 @@ String java2=new String("Java");//8bytes
 == and equals
 
 Basic Concepts:
+Instance 
 
+==================
+08-12-2025
+-------
 OOPS Concepts:
---------------
-Re-Usebulity:I 
-Readabulity:{len} {upper} {lower} {empty}
-Inside Class and OutSide MainMethod
- Method1()
- {
- }
- Inside Class and Inside MainMethod
- 1.Static:classname.Method();
- 2.Non-Static:Object.Method();
- 
-Methods in Java:
----------------
+------------
+1.Re-Usability:Declare Once and Use Many Times 
+2.Readabulity:
+
+Class and Object:
+
+Fruit:Apple,Mango 
+Mobile:Samsung.Oppo 
+
+1.Methods/Functions in OOPS:
+----------------------------
+Block of Code.
+Syntax:
+------\
+class ClassName
+{
+AccessSpecifier Returntype MethodName(Parameters_List)
+{//Open
+Method Body;
+}//Close
+MainMethod()
+{
+Call User-Define Method;
+}
+}
+AccessSpecifier:public private protected default
+Returntype:void , int, return
+
+Method Excution/Run:
+------------------
+1.Static:Class Name: ClassName.MethodName();
+2.Non-Static/Instance:Object: ObjectName.MethodName();
+
+public:
+Same Package and Same Class 
+Same Package and Different Class 
+Different Package and Different Class 
+
+private:
+Same Package and Same Class 
+
+protected:
+Same Package and Same Class 
+Same Package and Different Class 
+
+default:
+Same Package and Same Class 
+Same Package and Different Class 
+
+Returntype:
+----------
+
+User-Define Method Types:
+---------------------
+1.WithOut Returntype and WithOut Parameters 
+2.WithOut Returntype and With Parameters
+3.With Returntype and WithOut Parameters 
+4.With Returntype and With Parameters
