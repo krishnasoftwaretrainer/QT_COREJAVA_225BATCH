@@ -641,3 +641,706 @@ Low:+ -
 ---------------------
 
 https://github.com/krishnasoftwaretrainer/QT_COREJAVA_225BATCH.git
+
+2.Relational Operators:
+---------------------
+	6	 8
+<	<=	>	>=	==	!= 
+
+Input:Integer or Point Values 
+OutPut:Boolean Values: true/false 
+
+marks>=35:35 25 marks>=35:35
+25>=35 
+
+< or = 25>=35:false 
+25 > 35 or 25 == 35 
+false or false : false 
+
+25>=25
+25 > 25 or 25 = 25 
+false or true = true 
+
+25>25
+
+
+3.Logical Operators:
+-------------------
+AND OR NOT
+
+Truth Table:
+----------
+Input1	Input2 	AND		OR 		NOT 
+------	-----	---		--		---
+TRUE	TRUE 	TRUE	TRUE	FALSE
+
+TRUE	FALSE	FALSE	TRUE
+
+FALSE	TRUE	FALSE	TRUE	TRUE
+
+FALSE	FALSE	FALSE	FALSE
+ 
+4.Assignment Operators:
+----------------------
+=
+a=10; LHS=RHS 
+
++=	-=	*=	/=	%=	
+int a=5;  //5
+a+=10;
+a=a+10;
+a=5+10;
+a=15; //15 
+
+int a=5;
+b=a+10;
+b=5+10;
+b=15;
+
+5.Unary Operators:
+-----------------
++ - 
+a=-10;
+b=+20;
+
+1.Increment Operators: ++  4 -- 5 ++ 6
+A.Pre-Increment: ++a a=10 +1 a=11 Print:11
+B.Post-Increment: b++:b=10;Print:10 +1 b=11;
+
+2.Decrement Operators: --
+C.Pre-Decrement: --c:c=10; c=9 Print:9
+D.Post-Decrement: d--:d=10 Print:10 -1 d=9
+
+6.Ternary Operators:
+-------------------
+? :
+
+marks>=35?true:false;
+
+Difference: = == .equalsTo()
+
+Variable:Values 
+Object:Reference 
+
+7.Bitwise Operators:
+-----------------
+0:False 1:True 
+
+Input1	Input2	&	|	^
+--------------------------
+1		1		1	1	0
+	
+1		0		0	1	1
+					
+0		1		0	1	1	
+	
+0		0		0 	0	0
+
+Input:Integer:Binary:& | ^ 
+
+Logical:AND(&&) OR(||) 
+
+Bitwise:AND(&) OR(|) 
+
+a=12,b=10;
+
+8.Shift Operators:
+----------------
+1.Left Shift(<<):
+2.Right Shift(>>)
+
+int a=5; a<<4: 101
+
+Control Flow Statements in Java:
+-----------------------------
+1.Which:Conditional  
+2.How:Loop
+3.Stop:Jumping
+
+
+
+
+----------------
+27-11-2025
+=========
+Sequentional Flow:
+----------------
+
+
+Control Flow Statements in Java:
+-----------------------------
+1.Which:
+Conditional/Branching Statements:
+---------------------
+A.IF Condition:
+-------------
+1.simple-if()
+2.if-else()
+3.else-if() or ladder-if()
+4.Nested-if()
+B.Switch Condition:
+ switch
+ 
+2.How:Loop:
+A.for()
+B.while()
+C.do-while()
+D.Nested-for()
+
+3.Stop:Jumping:
+break
+continue
+return
+
+1.Defination/s 
+2.Syntax
+3.FlowChart
+4.Explanation
+5.Example Programs
+
+1.simple-if() Condition:50:40P
+--------------------
+OutPut:Boolean:true/false:+ - else 
+True:True Block:TBS:Pass 
+False:False Block:FBS:Fail 
+Null/Empty 
+Syntax:
+--------
+if(Condition)
+{
+Body; TBS 
+}
+
+2.if-else():
+----------
+True:True Block:TBS:Pass 
+False:False Block:FBS:Fail
+Syntax:
+--------
+if(Condition) >35 <18 true/false
+{
+Body; TBS 
+}
+else
+{
+Body; FBS;
+}
+
+Student Result:Pass/Fail
+
+3.else-if() or ladder-if(): Even or Odd or Zero 
+Positive and Negative and Zero
+Pass/Fail:
+A B C D Fail 
+
+Syntax:
+------
+if(Condition)
+{
+Body; TBS;
+}
+else if(Condition)
+{
+Body; TBS;
+}
+------
+------
+-----
+else
+{
+Body; FBS;
+}
+
+Assignment:
+-----------
+1.Check if a Number is Positive or Negative
+2.Check if a Number is Even or Odd
+3.Check Voting Eligibility (Age)
+4.Find the Largest of Two Numbers
+5.Check if a Person Passed or Failed
+Login check (Simple)
+6.Check if Character is Vowel
+7.Check if number is divisible by 5
+8.Check whether a number is greater or smaller
+
+==========
+Control Flow Statements in Java:
+-----------------------------
+1.Which:
+Conditional/Branching Statements:
+---------------------
+A.IF Condition:
+-------------
+1.simple-if()
+2.if-else()
+3.else-if() or ladder-if()
+4.Nested-if()
+B.Switch Condition:
+ switch
+ 
+2.How:Loop:
+A.for()
+B.while()
+C.do-while()
+D.Nested-for()
+
+3.Stop:Jumping:
+break
+continue
+return
+
+1.Defination/s 
+2.Syntax
+3.FlowChart
+4.Explanation
+5.Example Programs
+
+1.simple-if() Condition:50:40P
+--------------------
+OutPut:Boolean:true/false:+ - else 
+True:True Block:TBS:Pass 
+False:False Block:FBS:Fail 
+Null/Empty 
+Syntax:
+--------
+if(Condition)
+{
+Body; TBS 
+}
+
+2.if-else():
+----------
+True:True Block:TBS:Pass 
+False:False Block:FBS:Fail
+Syntax:
+--------
+if(Condition) >35 <18 true/false
+{
+Body; TBS 
+}
+else
+{
+Body; FBS;
+}
+
+Student Result:Pass/Fail
+
+3.else-if() or ladder-if(): Even or Odd or Zero 
+Positive and Negative and Zero
+Pass/Fail:
+A B C D Fail 
+
+Syntax:
+------
+if(Condition)
+{
+Body; TBS;
+}
+else if(Condition)
+{
+Body; TBS;
+}
+------
+------
+-----
+else
+{
+Body; FBS;
+}
+
+Nested-if():
+---------
+MobileNumber Outer:True/False:Invalid MN  
+Password	Inner:True 
+Open 
+
+True	True 
+True 	False
+False	
+
+if(Condition-1) Outer True True False
+{
+if(Condition-2) Inner True False
+{
+Body; TBS; Open
+}
+else //Inner 
+{
+Body; FBS; Invalid Password
+}
+else
+{
+Body; FBS; Outer Invalid MN 
+}
+
+10	20	30 
+
+30 20 10 
+
+a > b && a > c
+30>20 && 30>10 T && T = T a=30,b=20,c=10
+A is Big 
+30>20 && 30>40 T && F = F a=30,b=20,c=40
+C is Big 
+30>50 && 30>10 F && T = F a=30,b=50,c=10
+B is Big 
+10>20 && 10>30 T && T = T a=10,b=20,c=30
+C is Big 
+
+2.switch():
+---------
+1.J 2.F 3.M 12  5.May  15 else default
+1.1
+'J' 'F'
+"
+Syntax:
+-----
+switch(Condition/CaseValue)
+{
+case 1:
+{
+Body; TBS;
+break;
+}
+case 2:
+{
+Body; TBS;
+break;
+}
+deafult
+{
+Body; FBS;
+}
+
+03-12-2025
+---------
+Looping Statements:
+-----------------
+Iterative Statements:
+Block of Code or Body of the program:
+Counted Loops:10:Fixed
+for():
+Print  1 to 10 Numbers 
+Syntax:
+-----
+for(InitialValue;Condition;Increment/Decrement)
+{
+Body;
+}
+
+for(int i=1;i<=10;i++)
+{
+Syso(i);
+}
+
+Un-Counted/Infinet/Conditional:
+while():
+Syntax:
+------
+InitialValue;
+while(Condition)
+{
+  //1 2
+Body;
+Increment/Decrement;
+}
+
+
+System.out.print((char)(64+j)+" ");
+int num=1;
+ System.out.print(num++ + " ");
+i=2;
+i+=2;
+i=i+2;
+i=2+2;
+i=4;
+
+i=4+2;
+i=6;
+
+1 * 2= 2
+2 * 2= 4
+
+
+Entry Control Loops:
+
+do-while():
+-------
+Exit-Control Loops:
+First:False 
+
+int i=6; 1<=5 
+(i>5) 5>5
+
+Syntax:
+-----
+InitialValue;
+do 
+{
+Body;
+}while(Condition);
+Exit 
+
+4.Nested-for():
+-------------
+Syntax: SR MC or MR SC ; MR MC 
+-------
+for(InitialValue;Condition;Increment/Decrement)
+{//Outer T T T F Rows 
+for(InitialValue;Condition;Increment/Decrement)
+{ //Inner T F Columns 
+Body;  E 
+}
+}
+Pattern Programs:
+---------
+1  2  3  4  5
+1  2  3  4  5
+1  2  3  4  5
+1  2  3  4  5
+1  2  3  4  5 
+
+
+3.Jumping Statements:
+---------------
+break;
+continue;
+return;
+
+Arrays in Java:
+---------------
+Arrays in Java:
+-------------
+Normal Variable:
+int htno1=101; //101 
+int htno2=102; //102 
+int htno3=103; //103 
+int htno4=104; //104 
+int htno5=105; //105 
+int htno6=106; //106 
+
+Array:
+float 99
+int 99.99
+
+Syntax:
+-------
+datatype VariableName=Value;
+int htno=101;
+
+datatype ArryVariableName[]={Value1,Value2,....};
+int htno[]={101,102,103,104}; Static Array
+Memory Allocation for Dynamic Array:
+---------
+datatype ArryVariableName[]=new datatype[Size];
+int htno[]=new int[5]; 6
+Scanner scan=new Scanner();
+
+Types of Arrays:
+---------------
+1.Single Dimension Array: 
+SR MC or MR SC 
+
+101	102	103	104: SR MC 
+101 htno[0]=101
+102 htno[1]=102
+103 htno[2]=103
+104	MR SC 
+
+print 5 to 10  
+
+for each loop:
+------------
+Syntax:
+
+for(datatype NewVar:ArrayVariable)
+
+2.Double or Two Dimension or Multi Dimension Array:
+--------------------------
+					   C0		C1	C2 
+1	2	00	01		R0 1[00]	2[01]	3
+
+3	4 	10	11		R1 4[10]	5[11]	6 2*3=6
+Size:RSize*CSize=No of Elements 
+		2	*	2	=	4
+Elements:
+
+Dynamic Array Input:
+-------------------
+Single or One Dimension Array:
+------------------------
+1:1 v 
+2:2 v 
+3:4 v 
+
+c=a+b; - * / %
+c[][]=a[][]+b[][]; - * / %
++ - / %
+
+c[i][j]=a[i][j]+b[i][j];
+Muliplication:
+------------
+a[i][0]*b[0][j] + a[i][1]*b[1][j]
+a[i][k]*b[k][j] + a[i][k]*b[k][j]
+
+String in Java:
+--------------
+"Collection of Characters"
+A to Z a t z 0 to 9 SS[#@%#$^&$%]
+"Kr9shna"
+'d'
+
+Syntax:
+-------
+1.String Literal:
+---------------
+datatype StringVariableName="Value";
+String Course1="Java"; //8bytes
+String Course2="Java is"; //8bytes
+String Course3="Java is"; //No 
+
+datatype StringVariableName=scan.next();
+datatype StringVariableName=scan.nextLine();
+
+2.String new Keyword:
+--------------------
+datatype StringVariableName=new String("Value");
+String java1=new String("Java");//8bytes
+String java2=new String("Java");//8bytes
+
+== and equals
+
+Basic Concepts:
+Instance 
+
+==================
+08-12-2025
+-------
+OOPS Concepts:
+------------
+1.Re-Usability:Declare Once and Use Many Times 
+2.Readabulity:
+
+Class and Object:
+
+Fruit:Apple,Mango 
+Mobile:Samsung.Oppo 
+
+1.Methods/Functions in OOPS:
+----------------------------
+Block of Code.
+Syntax:
+------\
+class ClassName
+{
+AccessSpecifier Returntype MethodName(Parameters_List)
+{//Open
+Method Body;
+}//Close
+MainMethod()
+{
+Call User-Define Method;
+}
+}
+AccessSpecifier:public private protected default
+Returntype:void , int, return
+
+Method Excution/Run:
+------------------
+1.Static:Class Name: ClassName.MethodName();
+2.Non-Static/Instance:Object: ObjectName.MethodName();
+
+public:
+Same Package and Same Class 
+Same Package and Different Class 
+Different Package and Different Class 
+
+private:
+Same Package and Same Class 
+
+protected:
+Same Package and Same Class 
+Same Package and Different Class 
+
+default:
+Same Package and Same Class 
+Same Package and Different Class 
+
+Returntype:
+----------
+
+User-Define Method Types:
+---------------------
+1.WithOut Returntype and WithOut Parameters 
+2.WithOut Returntype and With Parameters
+3.With Returntype and WithOut Parameters 
+4.With Returntype and With Parameters
+
+09-12-2025
+-------------
+2.Constructors in Java:
+---------------------
+Block of Code:Specific: Addition():Cal 
+ClassName and Method Name:Different
+ClassName and Method Name:Same:Automatic 
+
+Syntax:
+------
+CLass ClassName Scanner
+{
+AccessSpecifier ClassName() Scanner()
+{
+Body;
+}a
+MainMethod()
+{
+Syntax:Object
+ClassName ObjectName=new ConstructorName();
+Scanner scan=new Scanner();
+}
+
+Types of Constructors:
+-----------------
+1.No-Arguments/Parameters_Constructor:
+2.Parameterized_Constructor:
+3.Default_Constructor:
+
+Inheritance in Java: Re-Usability
+-------------------
+First Class: Parent/Super/Base/Existing
+Second Class: Child/Sub/Derived/New 
+extends:KeyWord
+Syntax:ChildClass extends ParentClass
+Calculator1:Parent:+ - * / 
+Calculator2:Child: % 
+
+Is-A Relational:
+--------------
+Car Is-A Vehicle
+
+Types:
+----
+1.Single-Level Inheritance:
+One Parent 
+One Child 
+2.Multi-Level Inheritance:
+GP:2 
+P:3 
+C:5
+
+3.Hierarchical Inheritance:
+Parent1:
+Child1:
+Child2:
+Child3:
+
+4.MultiPile Inheritance:
+SC-->P1,P2 
+Child extends P1,P2
+Interface
+
+5.Hybrid Inheritance:
+
+3.Polimorphism:
+Method OverLoading:
+Method OverRiding
