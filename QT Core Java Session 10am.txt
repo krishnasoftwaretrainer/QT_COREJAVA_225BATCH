@@ -1275,3 +1275,132 @@ User-Define Method Types:
 2.WithOut Returntype and With Parameters
 3.With Returntype and WithOut Parameters 
 4.With Returntype and With Parameters
+
+09-12-2025
+-------------
+2.Constructors in Java:
+---------------------
+Block of Code:Specific: Addition():Cal 
+ClassName and Method Name:Different
+ClassName and Method Name:Same:Automatic 
+
+Syntax:
+------
+CLass ClassName Scanner
+{
+AccessSpecifier ClassName() Scanner()
+{
+Body;
+}a
+MainMethod()
+{
+Syntax:Object
+ClassName ObjectName=new ConstructorName();
+Scanner scan=new Scanner();
+}
+
+Types of Constructors:
+-----------------
+1.No-Arguments/Parameters_Constructor:
+2.Parameterized_Constructor:
+3.Default_Constructor:
+
+Inheritance in Java: Re-Usability
+-------------------
+First Class: Parent/Super/Base/Existing
+Second Class: Child/Sub/Derived/New 
+extends:KeyWord
+Syntax:ChildClass extends ParentClass
+Calculator1:Parent:+ - * / 
+Calculator2:Child: % 
+
+Is-A Relational:
+--------------
+Car Is-A Vehicle
+
+Types:
+----
+1.Single-Level Inheritance:
+One Parent 
+One Child 
+2.Multi-Level Inheritance:
+GP:2 
+P:3 
+C:5
+
+3.Hierarchical Inheritance:
+Parent1:
+Child1:
+Child2:
+Child3:
+
+4.MultiPile Inheritance:
+SC-->P1,P2 
+Child extends P1,P2
+Interface
+
+5.Hybrid Inheritance:
+
+===============================
+10-12-2025
+---------
+
+3.Polimorphism:Many Forms
+Method OverLoading:
+Method OverRiding
+
+Addition():2 3 4 
+
+1.Static/CompileTime:
+Method OverLoading:
+Same Method Name and Different Parameters. 
+Duplicate Method
+
+Addition(int a,int b):10+20=30
+Addition(int a,int b,int c):10+20+30=60
+
+1.Number of Parameters:
+()
+(Parameter1)
+(Parameter1,Parameter2)
+(Parameter1,Parameter2,Parameter3)
+
+2.Different DataTypes
+(int a, int b)
+(double a, double b)
+(float a, float b)
+
+3.InterChange 
+(int a, double b)
+(double a, int b)
+
+2.Dynamic/RunTime:
+Method OverRiding:Object:Inheritance
+Parent:
+Child:
+ 
+Inheritance:
+Method OverRiding:
+==============================================
+11-12-2025
+---------
+1.abstract methods
+-------------
+Data Abstraction:abstract methods 
+0 to 100%:No 
+100%:interface
+ChildClass extends ParentClass
+
+2.Interface:
+--------
+100% Data Abstraction:No Implementation
+MultiPile Inheritance:
+ChildClass implements ParentClass
+
+Garbage Collection in Java:
+-------------------------
+final finally finalize
+Encapsulation in Java:
+Exception Handling:
+------------------
+
