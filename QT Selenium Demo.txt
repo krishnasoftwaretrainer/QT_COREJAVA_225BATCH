@@ -1,0 +1,23 @@
+13-12-2025
+---------
+Automation Testing:
+-----------------
+To test the developers developed app by using automation tools.
+
+Manual TestCases-->Automation Script
+
+Regression Testing:
+5TC:3TC 2TC:50LOC
+50V 51V   
+
+Environment SetUp:
+---------------
+1.Java(jdk25v) Programming Language
+2.EclipseIDE(2025-12) (IDE]
+3.Selenium WebDriver(4.ov) Automation Tool 
+4.Drivers:Chrome,Edge,Geko,
+5.Browsers:Chrome,Edge,FireFox 
+
+Script-->Browser 
+
+Task:
