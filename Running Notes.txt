@@ -1,0 +1,42 @@
+13-12-2025
+---------
+Automation Testing:
+-----------------
+To test the developers developed app by using automation tools.
+
+Manual TestCases-->Automation Script
+
+Regression Testing:
+5TC:3TC 2TC:50LOC
+50V 51V   
+15-12-2025
+---------
+Environment SetUp:
+---------------
+1.Java(jdk25v) Programming Language
+2.EclipseIDE(2025-12) (IDE]
+3.Selenium WebDriver(4.ov) Automation Tool 
+4.Drivers:Chrome,Edge,Geko,
+5.Browsers:Chrome,Edge,FireFox 
+
+Selenium 3.oV 
+System.setProperty("");
+Selenium 4.oV 
+
+Script-->Browser 
+
+Drivers:
+Chrome Driver:
+Edge Driver 
+FireFox[Geko] Driver
+
+Web App:Browser/s:Cross Browser Testing
+Chrome Browser:
+Edge
+FireFox
+
+Manual TestCases into Selenium Script:
+
+Step1:Open Chrome Browser
+Step2:Maximize Chrome Browser
+Step3:Enter App URL: https://www.saucedemo.com/
