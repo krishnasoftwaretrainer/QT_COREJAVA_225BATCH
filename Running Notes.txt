@@ -40,3 +40,43 @@ Manual TestCases into Selenium Script:
 Step1:Open Chrome Browser
 Step2:Maximize Chrome Browser
 Step3:Enter App URL: https://www.saucedemo.com/
+
+==============================
+16/12/2025
+--------
+
+Smoke Testing:
+Title Verification:
+URL Verification:
+
+https://www.saucedemo.com/
+
+HeadLess:
+Amazon.in Most Gifted: The most popular items ordered as gifts at Amazon
+
+Amazon.in Hot New Releases: The bestselling new and future releases on Amazon
+
+TestData:
+UserName:standard_user
+Password:secret_sauce
+
+WebElements:
+TextBox:SendKeys
+Text Area:SendKeys[Enter]
+RadioButtons:Click
+Checkbox:Click
+Dropdowns:Select
+ListBox :Select
+Buttons:Click
+Links:Click
+
+Web Locaters:
+------------
+ID:
+Name:
+ClassName:
+TagName:
+LinkText:
+PartialLinkText:
+CSS Selector
+XPath
