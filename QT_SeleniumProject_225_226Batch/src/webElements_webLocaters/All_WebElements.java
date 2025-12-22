@@ -7,6 +7,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
 
 public class All_WebElements {
 
@@ -74,16 +76,79 @@ public class All_WebElements {
 		//English Language
 		WebElement Language_English=driver.findElement(By.xpath("//a[text()='English']"));
 		Language_English.click();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		
 		//Japanese Language
 		WebElement Language_Japanese=driver.findElement(By.xpath("//a[text()='Japanese']"));
 		Language_Japanese.click();
+		Thread.sleep(1000);
+		Languages.click(); //to close the language dropdown
+		//Click outside to close the language Dropdown
+		js.executeScript("document.body.click();");
 		
-		//Click outside to close the language dropdown
-		js
+		//9.Skill Dropdown
+		WebElement Skills=driver.findElement(By.id("Skills"));
+		Select skill_Dropdown=new Select(Skills);
+		//skill_Dropdown.selectByIndex(5);
+		//skill_Dropdown.selectByVisibleText("Corel Draw");
+		skill_Dropdown.selectByValue("Documentation");
+		//Thread.sleep(1000);
 		
+		//10.Country Dropdown
+		WebElement Country=driver.findElement(By.id("countries"));
+		Select country_Dropdown=new Select(Country);	
+		//country_Dropdown.selectByVisibleText("India");
+		country_Dropdown.selectByIndex(0);
+		
+		//11.Select Country (Searchable Dropdown)
+		WebElement SelectCountry=driver.findElement(By.xpath("//span[@role=\"combobox\"]"));
+		SelectCountry.click();
+		//Thread.sleep(1000);
+		WebElement SelectCountry_Input=driver.findElement(By.xpath("//input[@type=\"search\"]"));
+		SelectCountry_Input.sendKeys("New Zealand");
+		
+		//12.Date of Birth
+		//Year
+		WebElement Year=driver.findElement(By.id("yearbox"));
+		Select year_Dropdown=new Select(Year);
+		year_Dropdown.selectByVisibleText("1990");
+		Thread.sleep(1000);
+		//Month
+		WebElement Month=driver.findElement(By.cssSelector("select[ng-model=\"monthbox\"]"));
+		Select month_Dropdown=new Select(Month);
+		month_Dropdown.selectByValue("May");
+		Thread.sleep(1000);
+		//Day
+		WebElement Day=driver.findElement(By.id("daybox"));
+		Select day_Dropdown=new Select(Day);
+		day_Dropdown.selectByIndex(15);
+		
+		//13.Password
+		WebElement Password=driver.findElement(By.id("firstpassword"));
+		Password.sendKeys("abcdefgh");
 
+		//14.Confirm Password
+		WebElement ConfirmPassword=driver.findElement(By.id("secondpassword"));
+		ConfirmPassword.sendKeys("abcdefgh");
+		
+		//Choose File
+		WebElement ChooseFile=driver.findElement(By.id("imagesrc"));
+		ChooseFile.sendKeys("C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Screenshot 2024-10-18 175019.png");
+		
+		
+		
+		//Submit Button
+		//WebElement SubmitButton=driver.findElement(By.id("submitbtn"));
+		//SubmitButton.click();
+		
+		//Refresh Button
+		WebElement RefreshButton=driver.findElement(By.id("Button1"));
+		js.executeScript("arguments[0].scrollIntoView();", RefreshButton);
+		//js.executeScript("window.scrollBy(0,100)");
+		Thread.sleep(2000);
+		RefreshButton.click();
+		System.out.println("Form Refreshed Successfully");
+		driver.close();
 	}
 
 }
