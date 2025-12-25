@@ -7,10 +7,10 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class URL_Forward_Backward_Refresh {
 
 	public static void main(String[] args) throws InterruptedException {
-		//WebDriver driver = new ChromeDriver();
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless=new");
-		WebDriver driver = new ChromeDriver(options);
+		WebDriver driver = new ChromeDriver();
+		//ChromeOptions options = new ChromeOptions();
+		//options.addArguments("--headless=new");
+		//WebDriver driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		
 		//driver.get("https://www.google.com/");
