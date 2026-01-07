@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.TestNG_Annotations">
+      <class name="assertions_Selenium.SoftAssertions">
         <methods>
-          <include name="SwagLoginIVV"/>
-          <include name="BrowserClose"/>
-          <include name="BrowserLaunch"/>
+          <include name="SwagLoginVIV"/>
         </methods>
-      </class> <!-- TestNG.TestNG_Annotations -->
+      </class> <!-- assertions_Selenium.SoftAssertions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
